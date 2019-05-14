@@ -77,13 +77,13 @@ public class UserStore {
 
 	private void generateUserStore() {
 		store=new HashMap<String, GeoWebUser>();
-		addUserToStore("ernst", "ernst",new RoleType[]{RoleType.USER});
-		addUserToStore("guest", "guest",new RoleType[]{RoleType.USER});
-		addUserToStore("met1", "met1",new RoleType[]{RoleType.USER,RoleType.MET});
-		addUserToStore("beheerder1", "beheerder1",new RoleType[]{RoleType.USER,RoleType.ADMIN});
-		addUserToStore("met2", "met1",new RoleType[]{RoleType.USER, RoleType.MET});
-		addUserToStore("admin", "admin",new RoleType[]{RoleType.USER,RoleType.ADMIN});
-		addUserToStore("admin", "admin",new RoleType[]{RoleType.USER, RoleType.ADMIN});
+		addUserToStore("guest", "metpw",new RoleType[]{RoleType.USER});
+		addUserToStore("met", "metpw",new RoleType[]{RoleType.USER, RoleType.MET});
+		addUserToStore("met1", "metpw",new RoleType[]{RoleType.USER, RoleType.MET});
+		addUserToStore("met2", "metpw",new RoleType[]{RoleType.USER, RoleType.MET});
+		addUserToStore("met3", "metpw",new RoleType[]{RoleType.USER, RoleType.MET});
+		addUserToStore("met4", "metpw",new RoleType[]{RoleType.USER, RoleType.MET});
+		addUserToStore("admin", "metpw",new RoleType[]{RoleType.USER, RoleType.MET, RoleType.ADMIN});
 	}
 
 	
