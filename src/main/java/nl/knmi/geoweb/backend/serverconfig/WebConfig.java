@@ -14,9 +14,9 @@ public class WebConfig implements WebMvcConfigurer {
 
 	@Override
 	public void addCorsMappings(CorsRegistry registry) {
-		registry.addMapping("/**")
-			.allowedMethods("POST","HEAD","GET","OPTIONS","DELETE")
-			.allowCredentials(true);
+	    registry.addMapping("/**");
+	    //			.allowedMethods("POST","HEAD","GET","OPTIONS","DELETE")
+	    //			.allowCredentials(true);
 	}
 
 	//This matcher makes request paths case insensitive
