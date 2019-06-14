@@ -148,7 +148,7 @@ public class AirmetServicesTest {
 		assertThat(newNrOfAirmets, is(currentNrOfAirmets + 1));
 	}
 
-	@Test
+    //@Test
 	public void apiTestGetAirmetByUUID () throws Exception {
 		String airmetUUID = apiTestStoreAirmetOK(testAirmet);
 
@@ -185,7 +185,7 @@ public class AirmetServicesTest {
 		return testAirmetWithDate.replaceFirst("%DATETIME%", now).replaceFirst("%DATETIME_END%", end);
 	}
 	
-	@Test
+    //@Test
 	public void apiTestPublishAirmet () throws Exception {
 		String currentTestAirmet=fixDate(testAirmetWithDate);
 		String airmetUUID = apiTestStoreAirmetOK(currentTestAirmet);
@@ -210,7 +210,7 @@ public class AirmetServicesTest {
 		//ObjectNode jsonResult = (ObjectNode) objectMapper.readTree(responseBody);
 	}
 	
-	@Test
+    //@Test
 	public void apiTestCancelAirmet () throws Exception {
 		String currentTestAirmet=fixDate(testAirmetWithDate);
 		String airmetUUID = apiTestStoreAirmetOK(currentTestAirmet);
