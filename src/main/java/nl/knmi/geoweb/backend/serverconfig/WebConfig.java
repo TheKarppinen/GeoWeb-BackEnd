@@ -7,34 +7,16 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import org.springframework.context.annotation.Bean;
-@Configuration
-public class WebConfig {
-        @Bean
-	public WebMvcConfigurer corsConfigurer() {
-	    return new WebMvcConfigurer() {
-		            @Override
-			    public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**")
-				    .allowedOrigins("*")
-				    .allowedHeaders("*");
-			    }
-	    };
-	}
-}
 
-/*
 @Configuration
 @EnableWebMvc
 public class WebConfig implements WebMvcConfigurer {
 
 	@Override
 	public void addCorsMappings(CorsRegistry registry) {
-	    registry.addMapping("/**")
-		.allowedMethods("POST","HEAD","GET","OPTIONS","DELETE")
-	    //			.allowCredentials(true);
-		.allowedOrigins("*")
-		.allowedHeaders("*");
+		registry.addMapping("/**")
+			.allowedMethods("POST","HEAD","GET","OPTIONS","DELETE")
+			.allowCredentials(true);
 	}
 
 	//This matcher makes request paths case insensitive
@@ -45,5 +27,5 @@ public class WebConfig implements WebMvcConfigurer {
 		configurer.setPathMatcher(matcher);
 	}
 
+
 }
-*/
