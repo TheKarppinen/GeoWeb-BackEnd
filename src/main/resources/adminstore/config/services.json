@@ -16,7 +16,7 @@
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
-	"MET"
+	"MET", "USER"
     ]
   },
   {
@@ -26,7 +26,7 @@
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
-      "MET"
+      "MET", "USER"
     ]
   },
   {
@@ -36,7 +36,7 @@
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
-      "MET"
+      "MET", "USER"
     ]
   },
   {
@@ -46,7 +46,7 @@
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
-      "MET"
+      "MET", "USER"
     ]
   },
   {
@@ -56,7 +56,7 @@
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
-      "MET"
+      "MET", "USER"
     ]
   },
   {
@@ -66,7 +66,7 @@
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
-      "MET"
+      "MET", "USER"
     ]
   }
 ]
