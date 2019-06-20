@@ -1,15 +1,4 @@
 [
-/*  {
-    "name":"FMI Opendata GeoServer",
-    "title":"FMI Opendata GeoServer",
-    "service":"https://openwms.fmi.fi/geoserver/wms",
-    "type":"WMS",
-    "goal":"LAYER",
-    "roles":[
-	"MET", "USER", "ADMIN"
-    ]
-  },
-*/
   {
     "name":"FMI Clients GeoServer",
     "title":"FMI Clients GeoServer",
@@ -30,45 +19,4 @@
 	"MET", "USER", "ADMIN"
     ]
   }
-/*
-  ,{
-    "name":"ECMWF WMS Server",
-    "title":"ECMWF WMS Server",
-    "service":"https://apps.ecmwf.int/wms/?token=MetOceanIE",
-    "type":"WMS",
-    "goal":"LAYER",
-    "roles":[
-      "MET", "USER"
-    ]
-  },
-  {
-    "name":"MET Canada WMS Server",
-    "title":"MET Canada WMS Server",
-    "service":"http://geo.weather.gc.ca/geomet/",
-    "type":"WMS",
-    "goal":"LAYER",
-    "roles":[
-      "MET", "USER"
-    ]
-  },
-  {
-    "name":"DWD WMS Server",
-    "title":"DWD WMS Server",
-    "service":"https://maps.dwd.de/geoserver/wms",
-    "type":"WMS",
-    "goal":"LAYER",
-    "roles":[
-      "MET", "USER"
-    ]
-  },
-  {
-    "name":"EUMETSAT Open WMS Server",
-    "title":"EUMETSAT Open WMS Server",
-    "service":"https://eumetview.eumetsat.int/geoserv/wms",
-    "type":"WMS",
-    "goal":"LAYER",
-    "roles":[
-      "MET", "USER"
-    ]
-  }*/
 ]
