@@ -149,7 +149,7 @@ public class SigmetServicesTest {
 		assertThat(newNrOfSigmets, is(currentNrOfSigmets + 1));
 	}
 
-    //@Test
+	@Test
 	public void apiTestGetSigmetByUUID () throws Exception {
 		String sigmetUUID = apiTestStoreSigmetOK(testSigmet);
 
@@ -186,7 +186,7 @@ public class SigmetServicesTest {
 		return testSigmetWithDate.replaceFirst("%DATETIME%", now).replaceFirst("%DATETIME_END%", end);
 	}
 	
-    //@Test
+	@Test
 	public void apiTestPublishSigmet () throws Exception {
 		String currentTestSigmet=fixDate(testSigmetWithDate);
 		String sigmetUUID = apiTestStoreSigmetOK(currentTestSigmet);
@@ -211,7 +211,7 @@ public class SigmetServicesTest {
 		//ObjectNode jsonResult = (ObjectNode) objectMapper.readTree(responseBody);
 	}
 	
-    //@Test
+	@Test
 	public void apiTestCancelSigmet () throws Exception {
 		String currentTestSigmet=fixDate(testSigmetWithDate);
 		String sigmetUUID = apiTestStoreSigmetOK(currentTestSigmet);
