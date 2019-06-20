@@ -2,7 +2,7 @@
   {
     "name":"Map FMI Clients GeoServer",
     "title":"FMI Clients GeoServer",
-    "service":"https://wms.fmi.fi/fmi-apikey/2298ea44-5ad4-4f07-838f-7dbc75af8379/geoserver/KAP/wms",
+    "service":"http://wms.fmi.fi/fmi-apikey/2298ea44-5ad4-4f07-838f-7dbc75af8379/geoserver/KAP/wms",
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
@@ -12,7 +12,7 @@
   {
     "name":"Radar FMI Clients GeoServer",
     "title":"FMI Clients GeoServer",
-    "service":"https://wms.fmi.fi/fmi-apikey/2298ea44-5ad4-4f07-838f-7dbc75af8379/geoserver/Radar/wms",
+    "service":"http://wms.fmi.fi/fmi-apikey/2298ea44-5ad4-4f07-838f-7dbc75af8379/geoserver/Radar/wms",
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
@@ -22,7 +22,7 @@
   {
     "name":"Satellite FMI Clients GeoServer",
     "title":"FMI Clients GeoServer",
-    "service":"https://wms.fmi.fi/fmi-apikey/2298ea44-5ad4-4f07-838f-7dbc75af8379/geoserver/Satellite/wms",
+    "service":"http://wms.fmi.fi/fmi-apikey/2298ea44-5ad4-4f07-838f-7dbc75af8379/geoserver/Satellite/wms",
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
@@ -32,7 +32,7 @@
   {
     "name":"FMI Clients GeoServer",
     "title":"FMI Clients GeoServer",
-    "service":"https://wms.fmi.fi/fmi-apikey/2298ea44-5ad4-4f07-838f-7dbc75af8379/geoserver/wms",
+    "service":"http://wms.fmi.fi/fmi-apikey/2298ea44-5ad4-4f07-838f-7dbc75af8379/geoserver/wms",
     "type":"WMS",
     "goal":"LAYER",
     "roles":[
